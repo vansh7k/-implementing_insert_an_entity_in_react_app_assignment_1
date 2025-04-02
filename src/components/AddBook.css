@@ -1,0 +1,90 @@
+/* Container styling */
+.add-book-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Blue to Purple gradient */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Heading */
+  .add-book-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Form styling */
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .add-book-form label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Input fields */
+  .add-book-form input,
+  .add-book-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  .add-book-form input::placeholder,
+  .add-book-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .add-book-form input:focus,
+  .add-book-form textarea:focus {
+    outline: none;
+    border: 2px solid #ffcc00;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Button group */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  /* Submit button */
+  .add-book-form button {
+    padding: 12px;
+    width: 48%;
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .add-book-form button:hover {
+    background-color: #ffaa00;
+  }
+  
+  /* Cancel button */
+  .cancel-button {
+    background-color: #ff4b5c;
+    color: #fff;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e04350;
+  }
